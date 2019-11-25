@@ -1,0 +1,198 @@
+body {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+/*timepicker style*/
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100px;
+}
+
+.react-datepicker__input-container {
+  width: inherit;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+
+/*home page styles*/
+
+.masthead {
+  background-image: linear-gradient(
+          135deg,
+          rgb(103, 178, 111) 0%,
+          rgb(76, 162, 205) 100%
+  ) !important;
+}
+
+.masthead.segment {
+  min-height: 550px;
+  padding: 1em 0 !important;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  margin-top: 3em;
+  margin-bottom: 0;
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.footer.segment {
+  padding: 5em 0;
+}
+
+.secondary.inverted.pointing.menu {
+  border: none;
+}
+
+
+/*end home page styles*/
+
+/* navbar styles */
+
+.ui.menu .item img.logo {
+  margin-right: 1.5em;
+}
+
+.mainchart {
+  margin-right: 20.5em;
+}
+
+
+.ui.fixed.menu {
+  background-image: linear-gradient(
+          135deg,
+          rgb(103, 178, 111) 0%,
+          rgb(76, 162, 205) 100%
+  ) !important;
+}
+
+.ui.main.container,
+.main.segment {
+  margin-top: 7em;
+}
+
+.ui.center.aligned.segment.attendance-preview {
+  background-color: #f5f5f5;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.ui.menu .item>img:not(.ui) {
+  margin-right: 1.5em !important;
+}
+
+.ui.menu:not(.vertical) .item>.button {
+  margin-left: 0.5em;
+}
+
+/*chat comments*/
+
+.ui.comments .comment .comments {
+  padding-bottom: 0 !important;
+  padding-left: 2em !important;
+}
+
+
+/*Video*/
+
+.player-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+  top: 0;
+  left: 0;
+}
+
+
+.blank{
+  height: 10vh;
+  width:100%;
+}
+
+.center1{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width:100%;
+  line-height: 62px;
+}
+
+.center2{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width:100%;
+  font-size: 40px;
+  line-height: 62px;
+}
+
+
+
+.fonthi{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.fonthi2{
+  font-family: 'Noto Sans KR', sans-serif;
+  color : grey
+}
+
+.fonthi12{
+  font-family: 'Noto Sans KR', sans-serif;
+  color : grey;
+  margin-left: 1.5em;
+}
+
+.fonthi3{
+  color : Purple
+}
+
+.fonthi4{
+  font-size: 500px;
+}
+
+.fontbye{
+  color : green;
+}
+
+
+.testhi {
+  background-image: linear-gradient(
+          135deg,
+          rgb(239, 247, 215) 0%,
+          rgb(239, 247, 215)  100%
+  ) !important;
+}
